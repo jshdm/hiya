@@ -6,30 +6,38 @@ body {
     padding: 25px;
 }
 
-h1, h2 { margin: 0; }
+h1, h2, h3 { margin: 0; }
 
 .content {
-    min-height: 85vh;
-    padding: 25px;
+    min-height: 82vh;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    width: 100%;
 }
 
 ul {
+    margin: 0; padding: 0;
     list-style-type: none;
-    padding: 20px;
-    margin: 10vh;
+    margin-top: 10vh;
 }
 
 li {
     font-size: 1.5em;
-    margin: 5px auto;
+    margin-bottom: 5px;
     max-width: 45%;
+    text-align: left;
 }
 
 nav {
     font-weight: bold;
+    h1, h2, h3 {
+        a{
+            color: #fff;
+            background-color: #0074D9;
+            padding: 8px;
+            border-radius: 5px;
+        }
+    }
 }
 
 a {
@@ -51,4 +59,9 @@ nav a {
 footer {
     margin: 0 auto;
     float: left;
+    background-color: #001f3f;
+    width: 80vw;
+    padding: 5px 15px;
+    border-radius: 5px;
+    a{ color: #fff; }
 }
