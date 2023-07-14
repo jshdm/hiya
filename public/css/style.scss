@@ -15,12 +15,14 @@ body {
 
 ul {
     list-style-type: none;
+    padding: 20px;
     margin: 0;
-    padding: 0;
 }
 
 li {
     font-size: 1.2em;
+    margin: 5px auto;
+    max-width: 45%;
 }
 
 nav {
@@ -46,6 +48,6 @@ nav a {
 }
 
 footer {
-    margin-top: 250px;
+    margin-top: 150px;
     padding: 20px;
 }
