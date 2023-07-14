@@ -9,7 +9,7 @@ body {
 h1, h2, h3 { margin: 0; }
 
 .content {
-    min-height: 82vh;
+    min-height: 78vh;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -40,9 +40,15 @@ nav {
     }
 }
 
+img {
+    width: 60px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
 a {
     text-decoration: none;
-    color: rgb(0, 115, 215);
+    color: #000;
     &:hover {
         text-decoration: underline;
     }
@@ -59,9 +65,10 @@ nav a {
 footer {
     margin: 0 auto;
     float: left;
-    background-color: #001f3f;
     width: 80vw;
     padding: 5px 15px;
     border-radius: 5px;
+    background-color: #000;
+    max-width: 40vw;
     a{ color: #fff; }
 }

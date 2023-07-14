@@ -8,9 +8,11 @@ html
         link(rel="stylesheet" href="../css/style.css")
         title Hiya
     body
-    nav 
-        h2: a(href="/") Hiya
-        h3: a(href="https://github.com/jshdm/hiya/blob/main/README.md").right ?
+    nav
+        a(href="/")
+            img(src="../img/hello.png")
+        a(href="https://github.com/jshdm/hiya/blob/main/README.md").right
+            img(src="../img/readme.png")
     .content: block content
     footer
         p: a(href="https://github.com/jshdm/hiya")
