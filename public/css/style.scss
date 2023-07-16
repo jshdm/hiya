@@ -19,20 +19,19 @@ h1, h2, h3 { margin: 0; }
     min-height: 75vh;
     display: flex;
     flex-direction: column;
-    width: 100%;
     padding: 25px;
 }
 
-ul {
+.menu {
     margin: 0; padding: 0;
     list-style-type: none;
     margin-top: 10vh;
+    max-width: 90%;
 }
 
 li {
     font-size: 1.5em;
     margin-bottom: 5px;
-    max-width: 45%;
     text-align: left;
 }
 
@@ -77,8 +76,7 @@ footer {
     margin-top: auto;
     float: left;
     height: 5vh;
-    width: 100%;
-    padding: 10px;
+    padding: 15px;
     background-color: #000;
     text-align: center;
     a{ color: #fff; }
