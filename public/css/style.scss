@@ -13,8 +13,6 @@ body {
     justify-content: flex-start;
 }
 
-h1, h2, h3 { margin: 0; }
-
 .content {
     min-height: 75vh;
     display: flex;
@@ -36,16 +34,8 @@ li {
 }
 
 nav {
-    font-weight: bold;
+    font-weight: 700;
     padding: 25px;
-    h1, h2, h3 {
-        a{
-            color: #fff;
-            background-color: #0074D9;
-            padding: 8px;
-            border-radius: 5px;
-        }
-    }
 }
 
 img {
